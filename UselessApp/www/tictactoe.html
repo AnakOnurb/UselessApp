@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- A biblioteca bundle já contem os arquivos JS do Bootstrap, Popper, e jQuery.
+    <script src="js/bootstrap.bundle.js"></script>-->
+    <title>The Useless App </title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <script src="js/tictactoe.js" crossorigin="anonymous"></script>
+    <style>
+    </style>
+    <script>
+    </script>
+  </head>
+  <body lang="pt-br">
+    <!-- Navegador superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/head.png" width="50px" height="50px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="chuck.html">Chuck Norris</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tronald.html">Tronald Dump</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="translator.html">Bazinga</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Some Serious Stuff<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Conteúdo da página -->
+    <div class="mainDiv">
+      <div class="pageTitle">
+        <img src="img/logo.png" class="titleImg"/>
+        The Gamemaker: TIC-TAC-TOE
+        <img src="img/logo.png" class="titleImg"/>
+      </div>
+      <br>
+      <div class="subtitleDiv">
+        Here you can just have fun!!
+      </div>
+      <br>
+      <div class="contentDiv">
+        <table class="tictactoeTable">
+          <tr>
+            <td id="0" onclick="verifyPos(this.id);"></td>
+            <td id="1" onclick="verifyPos(this.id);"></td>
+            <td id="2" onclick="verifyPos(this.id);"></td>
+          </tr>
+          <tr>
+            <td id="3" onclick="verifyPos(this.id);"></td>
+            <td id="4" onclick="verifyPos(this.id);"></td>
+            <td id="5" onclick="verifyPos(this.id);"></td>
+          </tr>
+          <tr>
+            <td id="6" onclick="verifyPos(this.id);"></td>
+            <td id="7" onclick="verifyPos(this.id);"></td>
+            <td id="8" onclick="verifyPos(this.id);"></td>
+          </tr>
+        </table>
+        <button type="button" onclick="clean();">Restart</button>
+      </div>
+    </div>
+  </body>
+  <!-- carga de scripts do Bootstrap, JQuery, Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>

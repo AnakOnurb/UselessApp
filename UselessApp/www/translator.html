@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- A biblioteca bundle já contem os arquivos JS do Bootstrap, Popper, e jQuery.
+    <script src="js/bootstrap.bundle.js"></script>-->
+    <title>The Useless App </title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <script src="js/translator.js" crossorigin="anonymous"></script>
+    <style>
+    </style>
+    <script>
+    </script>
+  </head>
+  <body lang="pt-br">
+    <!-- Navegador superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/head.png" width="50px" height="50px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="chuck.html">Chuck Norris</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tronald.html">Tronald Dump</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Bazinga<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tictactoe.html">Some Serious Stuff</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Conteúdo da página -->
+    <div class="mainDiv">
+      <div class="pageTitle">
+        <img src="img/translator.png" class="titleImg"/>
+        The Nerd: TRANSLATOR
+        <img src="img/translator.png" class="titleImg"/>
+      </div>
+      <br>
+      <div class="subtitleDiv">
+        Here you can learn a bit more about different languages on the universe
+      </div>
+      <br>
+      <div class="contentDiv">
+        <span>Your wish: </span>
+        <input type="text" id="translatorInput" class="translatorInput"/>
+        <br>
+        <div>
+          <button type="button" class="translatorButton" onclick="translateYoda();"> Master Yoda </button>
+          <button type="button" class="translatorButton" onclick="translateMinion();"> Minion </button>
+        </div>
+        <div>
+          <button type="button" class="translatorButton" onclick="translateKlingon();"> Klingon </button>
+          <button type="button" class="translatorButton" onclick="translateGroot();"> Groot </button>
+        </div>
+        <div class="translatorAnswer" id="translatorAnswer"></div>
+      </div>
+    </div>
+  </body>
+  <!-- carga de scripts do Bootstrap, JQuery, Popper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>

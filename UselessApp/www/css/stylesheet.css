@@ -1,0 +1,106 @@
+.mainDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.pageTitle{
+  font-size: 4vw;
+  font-weight: bolder;
+}
+
+.titleImg{
+  width: 12vw;
+}
+
+.subtitleDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.chuckButton{
+  background-color: #ED5823;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+  width: 70vw;
+}
+
+.chuckSelect{
+  width: 50vw;
+  text-align: center;
+}
+
+.chuckInput{
+  width: 50vw;
+  text-align: center;
+}
+
+.chuckAnswer{
+  font-weight: bold;
+  text-align: center;
+}
+
+.tronaldButton{
+  background-color: #F2DF7C;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+  width: 70vw;
+}
+
+.tronaldAnswer{
+  font-weight: bold;
+  text-align: center;
+}
+
+.translatorInput{
+  width: 50vw;
+  text-align: center;
+}
+
+.translatorAnswer{
+  font-weight: bold;
+  text-align: center;
+}
+
+.translatorButton{
+  background-color: #FFFA01;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid black;
+  width: 35vw;
+}
+
+.tictactoeTable {
+  border-collapse: collapse;
+  border-style: hidden;
+  width: 60vw;
+  height: 60vh;
+}
+
+.tictactoeTable td {
+  border: 5px solid black;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 5vw;
+}

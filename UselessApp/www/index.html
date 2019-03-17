@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/rainbow.css" />
+    <script>
+      function goToMainPage() {
+        setTimeout(function() {
+          //carrega página no browser (WebView)
+          window.location = "chuck.html"
+        }, 3000); //aguarda 2,5 segundos
+      }
+    </script>
+    <style>
+      .title{
+        font-size: 50px;
+        font-weight: bolder;
+      }
+      .autoimage{
+        max-height: 50%;
+        max-width: 50%;
+        height: auto;
+        width: auto\9; /* ie8 */
+      }
+      .center{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body onload="goToMainPage();">
+    <div class="rainbow">
+      <div class="center">
+        <div class="title">Welcome</div>
+        <br>
+        <img class="autoimage" src="img/uni.png" >
+        <br>
+        <div class="title">The Useless <p/> App</div>
+      </div>
+    </div>
+  </body>
+</html>
